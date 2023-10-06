@@ -1,0 +1,30 @@
+@import "../../styles.scss";
+
+.introduction-container {
+    padding-left: 4em;
+
+    .main-text {
+        font-size: 3em;
+        line-height: 1.3em;
+    }
+
+    .secondary-text {
+        font-size: 1.5em;
+    }
+
+    .contact-button {
+        font-size: 1.5em;
+        border-color: $highlight-color;
+
+        &:hover {
+            border-color: $highlight-color-secondary;
+            background-color: white;
+            color: $highlight-color-secondary;
+        }
+    }
+
+    .social-media-icon {
+        cursor: pointer;
+
+    }
+}
