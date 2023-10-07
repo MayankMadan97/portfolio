@@ -13,10 +13,15 @@
         }
     }
 
-    .skills-container {
-        background-color: $highlight-color;
-        min-height: 50vh;
+    .dark-bg-view-container {
+        background-color: #31333b;
+        color: white;
     }
+
+    // .skills-container {
+    //     background-color: $highlight-color;
+    //     min-height: 50vh;
+    // }
 
     .download-resume {
         right: 0;

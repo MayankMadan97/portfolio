@@ -1,4 +1,15 @@
-.card-container {
-    background: #ffea80;
-    border-radius: 1em;
+.card-anchor {
+    text-decoration: none;
+    color: white;
+
+    .card-container {
+        background: #3d3e42;
+        border-radius: 1em;
+        transition: color 0.3s ease;
+
+
+        &:hover {
+            background: #f0bf6c;
+        }
+    }
 }

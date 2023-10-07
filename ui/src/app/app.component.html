@@ -4,16 +4,21 @@
             <app-navbar></app-navbar>
         </div>
     </section>
-    <section class="row landing-container">
+    <section class="row landing-container mb-4">
         <section class="col-md-5 d-flex align-self-center"><app-introduction></app-introduction></section>
         <section class="col-md-7 d-none d-md-block"><img class="coder-vector" src="../assets/coder-vector.png"
                 alt="coder">
         </section>
     </section>
+    <section class="dark-bg-view-container row py-5">
+        <section class="about col-12 p-5">
+            <app-about></app-about>
+        </section>
+        <section class="row col-12 p-5" #skills>
+            <app-skills></app-skills>
+        </section>
+    </section>
     <a class="position-fixed mx-4 download-resume" target="_blank" download="mayank-madan-SDE-3YoE"
         href="../assets/mayank-madan-SDE-3YoE.pdf"><img src="../assets/resume.png" height="50"
             alt="Download Resume"></a>
-    <section class="row skills-container my-5">
-        <app-skills></app-skills>
-    </section>
 </section>

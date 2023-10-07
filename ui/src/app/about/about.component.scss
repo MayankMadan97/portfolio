@@ -1,0 +1,19 @@
+@import '../../styles.scss';
+
+.about-container {
+    .about-header {
+        font-size: 3em;
+    }
+
+    .about-underline {
+        height: 0.4em;
+        background-color: $highlight-color;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .about-description {
+        text-align: justify;
+        font-size: 1.2em;
+    }
+}

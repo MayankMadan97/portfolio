@@ -1,3 +1,6 @@
-<div class="card-container d-flex justify-content-center p-3 m-2" *ngIf="icon">
-    <a [attr.href]="icon.link" target="_blank"><img [attr.src]="icon.imgSrc" alt="icon.title" height="70"></a>
-</div>
+<a [attr.href]="icon.link" target="_blank" *ngIf="icon" class="card-anchor">
+    <div class="card-container p-5 my-2 text-center">
+        <img [attr.src]="icon.imgSrc" alt="icon.title" height="75"><br>
+        <span class="mt-4 d-block">{{icon.title}}</span>
+    </div>
+</a>

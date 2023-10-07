@@ -1,11 +1,11 @@
-<div class="row skill-view-container mb-5">
+<div class="row skill-view-container p-4">
     <div class="col-12">
-        <div class="row text-center skills-header py-5">
-            <div class="skills-heading col-12">Skills</div>
-            <div class="skills-sub-heading col-12">Languages and Frameworks</div>
+        <div class="row skills-header">
+            <div class="skills-heading col-12">My Skills</div>
+            <!-- <div class="skills-sub-heading col-12">Languages and Frameworks</div> -->
         </div>
-        <div class="row">
-            <div class="col-md-8 offset-md-2 col-12">
+        <div class="row my-4">
+            <div class="col-12">
                 <div class="row">
                     <app-card class="col-6 col-md-2" *ngFor="let skill of skillDetailList"
                         [icon]="{imgSrc:skill.imgSrc, title:skill.title, link: skill.link}"></app-card>
