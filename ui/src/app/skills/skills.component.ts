@@ -70,7 +70,7 @@ export class SkillsComponent {
     },
     {
       title: 'Git',
-      imgSrc: '../../assets/Skills/gitlab.png',
+      imgSrc: '../../assets/Skills/git.png',
       link: 'https://git-scm.com'
     },
     {
