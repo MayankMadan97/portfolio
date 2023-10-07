@@ -12,5 +12,8 @@ body {
 
     .highlight-inner-text {
         color: $highlight-color;
+        cursor: pointer;
+        text-decoration: none;
+
     }
 }

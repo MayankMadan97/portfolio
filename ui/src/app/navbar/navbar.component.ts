@@ -9,7 +9,7 @@ export class NavbarComponent {
 
   public navbarItemList = [
     {
-      value: 'About',
+      value: 'Skills',
       link: '#'
     },
     {

@@ -1,7 +1,53 @@
+@import '../styles.scss';
+
 .container-fluid {
+    .navbar {
+        position: sticky;
+        top: 0;
+        background-color: white;
+    }
+
     .landing-container {
         .coder-vector {
-            height: calc(100vh - 8em);
+            height: calc(100vh - 10em);
         }
     }
+
+    .skills-container {
+        background-color: $highlight-color;
+        min-height: 50vh;
+    }
+
+    .download-resume {
+        right: 0;
+        cursor: pointer;
+
+        &:hover {
+            animation: bounce 1s ease infinite;
+        }
+
+        @keyframes bounce {
+
+            0%,
+            20%,
+            50%,
+            80%,
+            100% {
+                transform: translateY(0);
+                /* Initial and final position (no translation) */
+            }
+
+            40% {
+                transform: translateY(-30px);
+                /* Bounce up */
+            }
+
+            60% {
+                transform: translateY(-15px);
+                /* Bounce down */
+            }
+        }
+    }
+
+
 }
