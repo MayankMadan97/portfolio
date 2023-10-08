@@ -1,0 +1,15 @@
+<div class="row portfolio-view-container p-4">
+    <div class="col-12">
+        <div class="row portfolio-header">
+            <div class="portfolio-heading col-12">Projects</div>
+        </div>
+        <div class="row my-4">
+            <div class="col-12">
+                <div class="row">
+                    <app-project-card class="col-6 col-md-3 p-4" *ngFor="let item of projectData" [cardDetail]="{title: item.title, body: item.body
+                , link: item.link, image: item.image}"></app-project-card>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

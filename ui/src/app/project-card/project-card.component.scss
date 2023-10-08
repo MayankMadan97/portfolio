@@ -1,0 +1,28 @@
+@import '../../styles.scss';
+
+.proj-card-container {
+    height: 55vh;
+    background: #3d3e42;
+    border-radius: 1em;
+    background-size: cover;
+    cursor: pointer;
+
+    .filter-cover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 1em;
+
+        .visit-project {
+            &:hover {
+                background-color: $highlight-color;
+                border: $highlight-color 1px solid;
+                color: $black-color-variation;
+            }
+        }
+
+    }
+}
