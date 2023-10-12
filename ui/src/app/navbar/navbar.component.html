@@ -1,7 +1,7 @@
 <div class="row navbar-container">
     <div class="col-12 d-flex justify-content-center">
-        <div *ngFor="let navbarItem of navbarItemList" class="navbar-item m-3 my-md-3 mx-md-4 font-monospace"
-            [routerLink]="navbarItem.link">
-            {{navbarItem.value}}</div>
+        <a *ngFor="let navbarItem of navbarItemList" class="navbar-item m-3 my-md-3 mx-md-4 font-monospace"
+            [attr.href]="navbarItem.link">
+            {{navbarItem.value}}</a>
     </div>
 </div>

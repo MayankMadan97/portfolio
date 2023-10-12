@@ -5,6 +5,7 @@
         position: sticky;
         top: 0;
         background-color: white;
+        z-index: 999;
     }
 
     .landing-container {
@@ -16,6 +17,26 @@
     .dark-bg-view-container {
         background-color: #31333b;
         color: white;
+    }
+
+    .footer {
+        background-color: #24262d;
+        color: white;
+        min-height: 10vh;
+
+        .rounded-pill {
+
+            background: #3d3e42;
+            border-radius: 1em !important;
+            transition: color 0.3s ease;
+            box-shadow: 0 70px 63px -60px #000000;
+            font-size: 1.5em;
+            padding: 1em;
+            margin: 1em;
+            text-align: center;
+            width: 30%;
+
+        }
     }
 
     // .skills-container {

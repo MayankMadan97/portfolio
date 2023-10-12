@@ -9,16 +9,16 @@ export class NavbarComponent {
 
   public navbarItemList = [
     {
+      value: 'About',
+      link: '#about'
+    },
+    {
       value: 'Skills',
       link: '#skills'
     },
     {
       value: 'Portfolio',
-      link: '#'
-    },
-    {
-      value: 'Contact',
-      link: '#'
+      link: '#portfolio'
     }
   ];
 
