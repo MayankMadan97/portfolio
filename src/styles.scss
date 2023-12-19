@@ -2,14 +2,11 @@
 
 $highlight-color : #ffc86a;
 $highlight-color-secondary : #6c26de;
-$black-color-variation: #414042;
+$base-color: #414042;
 
 body {
-    // font-family: 'Fjalla One', Tahoma, Geneva, Verdana, sans-serif;
-    // background-color: #343539;
-    // color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: $black-color-variation;
+    color: $base-color;
 
     .highlight-inner-text {
         color: $highlight-color;
