@@ -1,11 +1,19 @@
 @import '../styles.scss';
 
 .container-fluid {
+
     .navbar {
         position: sticky;
-        top: 0;
+        top: -2em;
         background-color: white;
         z-index: 999;
+        height: 8em;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .navbar {
+            position: unset;
+        }
     }
 
     .landing-container {
