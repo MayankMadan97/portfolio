@@ -10,7 +10,21 @@
 </head>
 
 <body>
+  <div class="intro">
+    <img class="logo" src="../../assets/logo.png" alt="logo" height="300">
+  </div>
   <app-root></app-root>
 </body>
+
+<script>
+  let intro = document.querySelector(".intro");
+  let logo = document.querySelector(".logo");
+
+  window.addEventListener("DOMContentLoaded", () => {
+    setTimeout(() => {
+      intro.style.top = "-100vh";
+    }, 2000);
+  });
+</script>
 
 </html>
