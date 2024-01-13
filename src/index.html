@@ -32,24 +32,26 @@
   let intro = document.querySelector(".intro");
   let logo = document.querySelector(".logo");
 
+
   window.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => {
       intro.style.top = "-100vh";
+      const animatedElements = document.querySelectorAll('.animate-on-scroll');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target); // Stop observing after it's visible
+          }
+        });
+      });
+
+      animatedElements.forEach((element) => {
+        observer.observe(element);
+      });
     }, 2000);
 
-    const animatedElements = document.querySelectorAll('.animate-on-scroll');
 
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
-      });
-    });
-
-    animatedElements.forEach((element) => {
-      observer.observe(element);
-    });
   });
 
 </script>
