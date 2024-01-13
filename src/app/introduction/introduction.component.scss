@@ -6,26 +6,34 @@
     .main-text {
         font-size: 3em;
         line-height: 1.3em;
+        display: inline-grid;
+
     }
 
     .secondary-text {
         font-size: 1.5em;
     }
 
-    .contact-button {
-        font-size: 1.5em;
-        border-color: $highlight-color;
-        transition: color 0.3s ease;
+    .intro-contact-info {
+        opacity: 0;
+        animation: fadeIn 1s forwards;
+        animation-delay: 4s;
 
-        &:hover {
-            border-color: $highlight-color-secondary;
-            background-color: white;
-            color: $highlight-color-secondary;
+
+        .contact-button {
+            font-size: 1.5em;
+            border-color: $highlight-color;
+            transition: color 0.3s ease;
+
+            &:hover {
+                border-color: $highlight-color-secondary;
+                background-color: white;
+                color: $highlight-color-secondary;
+            }
         }
-    }
 
-    .social-media-icon {
-        cursor: pointer;
-
+        .social-media-icon {
+            cursor: pointer;
+        }
     }
 }

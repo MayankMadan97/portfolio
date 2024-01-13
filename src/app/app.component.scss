@@ -9,6 +9,9 @@
         z-index: 1;
         height: 8em;
         margin-top: -4vh;
+        opacity: 0;
+        animation: fadeIn 1s forwards;
+        animation-delay: 3s;
     }
 
     @media only screen and (max-width: 600px) {
@@ -21,6 +24,9 @@
     .landing-container {
         .coder-vector {
             height: calc(100vh - 10em);
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+            animation-delay: 3s;
         }
     }
 

@@ -15,6 +15,16 @@ body {
 
     }
 
+    .hide {
+        background-color: white;
+        overflow: hidden;
+
+        & span {
+            transform: translateY(100%);
+            display: inline-block;
+        }
+    }
+
     .intro {
         position: fixed;
         z-index: 999;
@@ -40,14 +50,15 @@ body {
             }
         }
 
-        @keyframes fadeIn {
-            0% {
-                opacity: 0;
-            }
+    }
 
-            100% {
-                opacity: 1;
-            }
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
         }
     }
 }
