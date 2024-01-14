@@ -12,25 +12,25 @@ export class PortfolioComponent {
       title: "Coder Gate",
       link: "https://github.com/MayankMadan97/coder-gate",
       image: "../../assets/projects/codergate.jpg",
-      body: "Intelligent code quality bot for GitHub."
+      body: "Elevate code quality with our GitHub-integrated intelligent bot."
     },
     {
       title: "Trivia Titans",
       link: "https://github.com/MayankMadan97/TriviaTitans",
       image: "../../assets/projects/trivia-titans.jpg",
-      body: 'Multiplayer trivia games on the cloud.'
+      body: "Cloud-based multiplayer trivia fun at your fingertips."
     },
     {
       title: "Newsly",
       link: "https://github.com/MayankMadan97/Newsly",
       image: "../../assets/projects/newsly.jpg",
-      body: "Daily personalized newsletter to you."
+      body: "Your daily dose of tailored news, delivered straight to you."
     },
     {
       title: "Jsonami",
       link: "https://github.com/MayankMadan97/Jsonami",
       image: "../../assets/projects/jsonami.jpg",
-      body: 'Last stop to sort out massive json data.'
+      body: "Simplify massive JSON data with one-stop precision."
     }
   ];
 

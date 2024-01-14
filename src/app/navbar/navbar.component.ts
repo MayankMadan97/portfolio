@@ -17,7 +17,7 @@ export class NavbarComponent {
       link: '#skills'
     },
     {
-      value: 'Portfolio',
+      value: 'Projects',
       link: '#portfolio'
     }
   ];
