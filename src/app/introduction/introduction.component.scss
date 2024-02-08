@@ -14,11 +14,62 @@
         font-size: 1.5em;
     }
 
+
+    @media only screen and (min-width: 600px) {
+
+        .marquee-container {
+            width: 15vw;
+
+            .marquee {
+                display: inline-block;
+                white-space: nowrap;
+                /* Prevent line breaks */
+                animation: marquee 5s linear infinite;
+
+                @keyframes marquee {
+
+                    0% {
+                        transform: translateX(30%);
+                    }
+
+                    100% {
+                        transform: translateX(-100%);
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+
+        .marquee-container {
+            width: 85vw;
+            margin: auto;
+
+            .marquee {
+                display: inline-block;
+                white-space: nowrap;
+                /* Prevent line breaks */
+                animation: marquee 5s linear infinite;
+
+                @keyframes marquee {
+
+                    0% {
+                        transform: translateX(50%);
+                    }
+
+                    100% {
+                        transform: translateX(-100%);
+                    }
+                }
+            }
+        }
+    }
+
     .intro-contact-info {
         opacity: 0;
         animation: fadeIn 1s forwards;
         animation-delay: 4s;
-
 
         .contact-button {
             font-size: 1.5em;

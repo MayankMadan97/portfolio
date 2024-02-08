@@ -3,6 +3,7 @@
 $highlight-color : #ffc86a;
 $highlight-color-secondary : #6c26de;
 $base-color: #414042;
+$background-color: white;
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -16,7 +17,7 @@ body {
     }
 
     .hide {
-        background-color: white;
+        background-color: $background-color;
         overflow: hidden;
 
         & span {
