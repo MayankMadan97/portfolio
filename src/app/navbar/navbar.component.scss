@@ -27,4 +27,48 @@
             color: $highlight-color;
         }
     }
+
+    // toggle button
+    input[type=checkbox]{
+        height: 0;
+        width: 0;
+        visibility: hidden;
+    }
+    
+    label {
+        cursor: pointer;
+        text-indent: -9999px;
+        width: 2.5em;
+        height: 1.5em;
+        background: grey;
+        display: block;
+        border-radius: 100px;
+        position: relative;
+    }
+    
+    label:after {
+        content: '';
+        position: absolute;
+        top: 0.15em;
+        left: 0.15em;
+        width: 1.2em;
+        height: 1.2em;
+        background: #fff;
+        border-radius: 90px;
+        transition: 0.3s;
+    }
+    
+    input:checked + label {
+        background: $highlight-color;
+    }
+    
+    input:checked + label:after {
+        left: calc(100% - 0.15em);
+        transform: translateX(-100%);
+    }
+    
+    label:active:after {
+        width: 1.2em;
+    }
+    
 }

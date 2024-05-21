@@ -13,6 +13,10 @@ export class NavbarComponent {
       link: '#about'
     },
     {
+      value: 'Experience',
+      link: '#experience'
+    },
+    {
       value: 'Skills',
       link: '#skills'
     },

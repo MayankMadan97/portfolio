@@ -4,8 +4,9 @@
         <div class="filter-cover p-4 d-flex">
             <div class="align-self-end">
                 <h2 class="title align-self-end">{{cardDetail.title}}</h2>
-                <p class="copy">{{cardDetail.body}}</p>
-                <a [attr.href]="cardDetail.link" target="_blank" class="visit-project btn btn-outline-light">Explore</a>
+                <div class="copy">{{cardDetail.body}}</div>
+                <div class="footer">{{cardDetail.footer}}</div>
+                <a *ngIf="cardDetail.link" [attr.href]="cardDetail.link" target="_blank" class="visit-project btn btn-outline-light mt-2">Explore</a>
             </div>
         </div>
     </div>

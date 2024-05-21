@@ -7,6 +7,6 @@ import { Component, Input } from '@angular/core';
 })
 export class ProjectCardComponent {
 
-  @Input() cardDetail?: { title: string, body?: string, link: string, image: string };
+  @Input() cardDetail?: { title: string, body?: string, link?: string, image: string, footer?: string };
 
 }
