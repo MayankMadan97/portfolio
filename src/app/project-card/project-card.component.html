@@ -1,5 +1,5 @@
 <div class="row my-4" *ngIf="cardDetail">
-    <div class="col-12 position-relative p-3 proj-card-container "
+    <div class="col-12 position-relative p-3 proj-card-container" (mouseenter)="mouseOnCard();"
         [ngStyle]="{'background-image': 'url(' + cardDetail.image + ')'}">
         <div class="filter-cover p-4 d-flex">
             <div class="align-self-end">
@@ -7,6 +7,9 @@
                 <div class="copy">{{cardDetail.body}}</div>
                 <div class="footer">{{cardDetail.footer}}</div>
                 <a *ngIf="cardDetail.link" [attr.href]="cardDetail.link" target="_blank" class="visit-project btn btn-outline-light mt-2">Explore</a>
+            </div>
+            <div class="d-none">
+                {{cardDetail.desc_on_hover}}
             </div>
         </div>
     </div>

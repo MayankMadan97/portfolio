@@ -7,6 +7,12 @@ import { Component, Input } from '@angular/core';
 })
 export class ProjectCardComponent {
 
-  @Input() cardDetail?: { title: string, body?: string, link?: string, image: string, footer?: string };
+  @Input() cardDetail?: { id: string, title: string, body?: string, link?: string, image: string, footer?: string, desc_on_hover?: string };
 
+  public hovered: boolean = false;
+
+  mouseOnCard() {
+    console.log('hovering'); 
+    this.hovered = true;
+  }
 }

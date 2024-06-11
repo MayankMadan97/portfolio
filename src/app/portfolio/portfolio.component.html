@@ -6,7 +6,7 @@
         <div class="row my-2">
             <div class="col-12">
                 <div class="row">
-                    <app-project-card class="col-12 col-md-3 p-4" *ngFor="let item of projectData" [cardDetail]="{title: item.title, body: item.body
+                    <app-project-card class="col-12 col-md-3 p-4" *ngFor="let item of projectData" [cardDetail]="{id: item.id, title: item.title, body: item.body
                 , link: item.link, image: item.image}"></app-project-card>
                 </div>
             </div>
