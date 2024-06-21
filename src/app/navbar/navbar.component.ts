@@ -13,7 +13,7 @@ export class NavbarComponent {
       link: '#about'
     },
     {
-      value: 'Experience',
+      value: 'Work',
       link: '#experience'
     },
     {
@@ -21,8 +21,8 @@ export class NavbarComponent {
       link: '#skills'
     },
     {
-      value: 'Projects',
-      link: '#portfolio'
+      value: 'Blog',
+      link: '#blog'
     }
   ];
 

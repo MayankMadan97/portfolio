@@ -23,7 +23,8 @@
 
     .landing-container {
         .coder-vector {
-            height: calc(100vh - 10em);
+            // height: calc(100vh - 10em);
+            max-width: 100%;
             opacity: 0;
             animation: fadeIn 1s forwards;
             animation-delay: 3s;
