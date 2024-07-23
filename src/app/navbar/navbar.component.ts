@@ -21,6 +21,10 @@ export class NavbarComponent {
       link: '#skills'
     },
     {
+      value: 'Projects',
+      link: '#projects'
+    },
+    {
       value: 'Blog',
       link: '#blog'
     }

@@ -10,7 +10,7 @@ export class ExperienceComponent {
   experienceData: { id: string, title: string, body?: string, link?: string, image: string, footer?: string, desc_on_hover?: string }[] = [
     {
       id: "exp1",
-      title: "Software Engineer",
+      title: "Software Dev Engineer",
       image: "../../assets/experience/Dispension.jpeg",
       body: "Dispension Industries",
       footer: "Jan'24 - Present",
@@ -20,7 +20,7 @@ export class ExperienceComponent {
       id: "exp2",
       title: "Mitacs Accelarate Intern",
       image: "../../assets/experience/Mitacs.jpg",
-      body: "Dalhousie University x Lab2Market x Springboard Atlantic",
+      body: "Dalhousie University x Lab2Market",
       footer: "Aug'23 - Dec'23",
       desc_on_hover: "Led a team of 5+ developers in the design, development, and maintenance of an AI-powered enterprise sales application for 2 years. Provided mentorship and guidance to team members, fostering professional growth and collaboration. Ensured the quality and reliability of code produced, adapting to various technologies and tech stacks as needed."
     },
@@ -34,7 +34,7 @@ export class ExperienceComponent {
     },
     {
       id: "exp4",
-      title: "Sr. Project Engineer",
+      title: "Sr. Product Engineer",
       image: "../../assets/experience/TCS.jpg",
       body: "Tata Consultancy Services",
       footer: "Jun'19 - Nov'22",
@@ -42,7 +42,7 @@ export class ExperienceComponent {
     },
     {
       id: "exp5",
-      title: "UX/UI Intern",
+      title: "UX/UI Developer Intern",
       image: "../../assets/experience/Feasopt.jpg",
       body: "Feasopt.AI",
       footer: "May'18 - Jul'18",
