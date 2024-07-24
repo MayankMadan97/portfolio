@@ -23,11 +23,12 @@ export class NavbarComponent {
     {
       value: 'Projects',
       link: '#projects'
-    },
-    {
-      value: 'Blog',
-      link: '#blog'
     }
+    // ,
+    // {
+    //   value: 'Blog',
+    //   link: '#blog'
+    // }
   ];
 
 }
