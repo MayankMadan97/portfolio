@@ -1,12 +1,12 @@
 <div class="row skill-view-container mt-5">
     <div class="col-10 offset-1 animate-on-scroll">
         <div class="row skills-header text-center text-lg-start">
-            <div class="skills-heading col-12 mb-3">My Skills</div>
+            <div class="skills-heading col-12 mb-3">Skills</div>
         </div>
         <div class="row my-4">
             <div class="col-12">
                 <div class="row">
-                    <app-card class="col-6 col-md-2" *ngFor="let skill of skillDetailList"
+                    <app-card class="col-6 col-md-3 col-xl-2" *ngFor="let skill of skillDetailList"
                         [icon]="{imgSrc:skill.imgSrc, title:skill.title, link: skill.link}"></app-card>
                 </div>
             </div>

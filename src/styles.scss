@@ -9,6 +9,18 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: $base-color;
 
+    h1 {
+        font-size: 3.2vw;
+    }
+
+    h2 {
+        font-size: 3.0vh;
+    }
+
+    p {
+        font-size: 2vmin;
+    }
+
     .highlight-inner-text {
         color: $highlight-color;
         cursor: pointer;

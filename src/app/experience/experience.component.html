@@ -1,12 +1,13 @@
 <div class="row experience-view-container mt-5 animate-on-scroll">
     <div class="col-10 offset-1">
         <div class="row experience-header text-lg-start mb-4">
-            <div class="experience-heading col-12">My previous gigs</div>
+            <div class="experience-heading col-12">Previous gigs</div>
         </div>
         <div class="row my-2">
             <div class="col-12">
                 <div class="row">
-                    <app-project-card class="col-12 col-md-3 p-4" *ngFor="let item of experienceData" [cardDetail]="{id: item.id, title: item.title, body: item.body
+                    <app-project-card class="col-12 col-md-4 col-xl-3 p-4" *ngFor="let item of experienceData"
+                        [cardDetail]="{id: item.id, title: item.title, body: item.body
                 , link: item.link, image: item.image, footer: item.footer}"></app-project-card>
                 </div>
             </div>
