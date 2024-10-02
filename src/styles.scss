@@ -74,4 +74,43 @@ body {
             opacity: 1;
         }
     }
+
+    /* Minimalist styling for the mobile warning */
+    #mobile-warning {
+        text-align: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+    }
+
+    /* Style the text inside the warning */
+    #mobile-warning ph1 {
+        margin: 0;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+        /* Subtle letter spacing */
+    }
+
+    /* Display the mobile warning only for smaller screens */
+    @media only screen and (max-width: 768px) {
+        #mobile-warning {
+            display: block;
+            opacity: 1;
+        }
+
+
+        #compatible-screen {
+            display: none;
+        }
+    }
+
+    /* Hide the warning smoothly with opacity */
+    .hidden {
+        opacity: 0;
+    }
 }
