@@ -1,0 +1,19 @@
+<div class="row activity-view-container mt-5 animate-on-scroll">
+  <div class="col-10 offset-1">
+    <div class="row activity-header text-center text-lg-start">
+      <div class="activity-heading col-12">Recent Activities</div>
+    </div>
+    <div class="row my-2">
+      <div *ngFor="let activity of activities" class="activity-item">
+        <h3>{{ activity.type }}</h3>
+        <p>Repository: <strong>{{ activity.repo.name }}</strong></p>
+        <p>Date: <strong>{{ activity.created_at | date: 'medium' }}</strong></p>
+        <p>
+          <strong>Details:</strong> 
+          <span *ngIf="activity.payload.commits">Commits: {{ activity.payload.commits.length }}</span>
+          <span *ngIf="activity.payload.issue">Issue: {{ activity.payload.issue.title }}</span>
+          <span *ngIf="activity.payload.pull_request">Pull Request: {{ activity.payload.pull_request.title }}</span>
+        </p>
+      </div>
+    </div>
+  </div>

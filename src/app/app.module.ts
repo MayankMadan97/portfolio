@@ -9,8 +9,11 @@ import { SkillsComponent } from './skills/skills.component';
 import { CardComponent } from './card/card.component';
 import { AboutComponent } from './about/about.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ActivityComponent } from './activity/activity.component'
 import { ProjectCardComponent } from './project-card/project-card.component';
 import { ExperienceComponent } from './experience/experience.component';
+
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -23,11 +26,13 @@ import { ExperienceComponent } from './experience/experience.component';
     AboutComponent,
     PortfolioComponent,
     ProjectCardComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    ActivityComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

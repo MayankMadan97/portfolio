@@ -1,0 +1,22 @@
+.activity-list {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.activity-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #3d3e42;
+  // border-radius: 1em;
+  transition: color 0.3s ease;
+  box-shadow: 0 70px 63px -60px #000000;
+}
+
+.activity-item h3 {
+  font-size: 1.2em;
+}
+
+.activity-item p {
+  margin: 5px 0;
+}
