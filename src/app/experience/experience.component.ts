@@ -13,48 +13,28 @@ export class ExperienceComponent {
       title: "Software Dev Engineer",
       image: "../../assets/experience/Dispension.jpeg",
       body: "Dispension Industries",
-      footer: "Jan'24 - Present",
-      desc_on_hover: "Led a team of 5+ developers in the design, development, and maintenance of an AI-powered enterprise sales application for 2 years. Provided mentorship and guidance to team members, fostering professional growth and collaboration. Ensured the quality and reliability of code produced, adapting to various technologies and tech stacks as needed."
+      footer: "Jan'24 - Present"
     },
     {
       id: "exp2",
       title: "Mitacs Accelarate Intern",
       image: "../../assets/experience/Mitacs.jpg",
       body: "Dalhousie University x Lab2Market",
-      footer: "Aug'23 - Dec'23",
-      desc_on_hover: "Led a team of 5+ developers in the design, development, and maintenance of an AI-powered enterprise sales application for 2 years. Provided mentorship and guidance to team members, fostering professional growth and collaboration. Ensured the quality and reliability of code produced, adapting to various technologies and tech stacks as needed."
+      footer: "Aug'23 - Dec'23"
     },
     {
       id: "exp3",
-      title: "Teaching Assistant and Marker",
+      title: "Teaching Assistant & Marker",
       image: "../../assets/experience/Dal.jpg",
       body: "Dalhousie University",
-      footer: "Aug'23 - May'24",
-      desc_on_hover: "Led a team of 5+ developers in the design, development, and maintenance of an AI-powered enterprise sales application for 2 years. Provided mentorship and guidance to team members, fostering professional growth and collaboration. Ensured the quality and reliability of code produced, adapting to various technologies and tech stacks as needed."
+      footer: "Aug'23 - May'24"
     },
     {
       id: "exp4",
-      title: "Sr. Product Engineer",
+      title: "Senior Product Engineer",
       image: "../../assets/experience/TCS.jpg",
       body: "Tata Consultancy Services",
-      footer: "Jun'19 - Nov'22",
-      desc_on_hover: "Led a team of 5+ developers in the design, development, and maintenance of an AI-powered enterprise sales application for 2 years. Provided mentorship and guidance to team members, fostering professional growth and collaboration. Ensured the quality and reliability of code produced, adapting to various technologies and tech stacks as needed."
-    },
-    {
-      id: "exp5",
-      title: "UX/UI Developer Intern",
-      image: "../../assets/experience/Feasopt.jpg",
-      body: "Feasopt.AI",
-      footer: "May'18 - Jul'18",
-      desc_on_hover: "Led a team of 5+ developers in the design, development, and maintenance of an AI-powered enterprise sales application for 2 years. Provided mentorship and guidance to team members, fostering professional growth and collaboration. Ensured the quality and reliability of code produced, adapting to various technologies and tech stacks as needed."
-    },
-    {
-      id: "exp6",
-      title: "Software Developer Intern",
-      image: "../../assets/experience/IDTech.jpg",
-      body: "IDTech Solutions Ltd.",
-      footer: "May'17 - Jul'17",
-      desc_on_hover: "Led a team of 5+ developers in the design, development, and maintenance of an AI-powered enterprise sales application for 2 years. Provided mentorship and guidance to team members, fostering professional growth and collaboration. Ensured the quality and reliability of code produced, adapting to various technologies and tech stacks as needed."
+      footer: "Jun'19 - Nov'22"
     }
   ];
 

@@ -1,22 +1,15 @@
-.activity-list {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-}
+@import '../../styles.scss';
 
-.activity-item {
-  margin-bottom: 20px;
-  padding: 15px;
-  background: #3d3e42;
-  // border-radius: 1em;
-  transition: color 0.3s ease;
-  box-shadow: 0 70px 63px -60px #000000;
-}
+.acheivements-view-container {
+    .acheivements-header {
 
-.activity-item h3 {
-  font-size: 1.2em;
-}
+        line-height: 2.2em;
 
-.activity-item p {
-  margin: 5px 0;
+        .acheivements-heading {
+            font-size: 2.5em;
+        }
+
+
+    }
+    
 }

@@ -16,25 +16,25 @@ export class PortfolioComponent {
       body: "Elevate code quality with our GitHub-integrated intelligent bot."
     },
     {
-      id: "proj1",
+      id: "proj2",
       title: "Trivia Titans",
       link: "https://github.com/MayankMadan97/TriviaTitans",
       image: "../../assets/projects/trivia-titans.jpg",
       body: "Cloud-based multiplayer trivia fun at your fingertips."
     },
     {
-      id: "proj1",
+      id: "proj3",
       title: "Newsly",
       link: "https://github.com/MayankMadan97/Newsly",
       image: "../../assets/projects/newsly.jpg",
       body: "Your daily dose of tailored news, delivered straight to you."
     },
     {
-      id: "proj1",
-      title: "Jsonami",
-      link: "https://github.com/MayankMadan97/Jsonami",
-      image: "../../assets/projects/jsonami.jpg",
-      body: "Simplify massive JSON data with one-stop precision."
+      id: "proj4",
+      title: "CodeSync - Unity",
+      link: "https://github.com/MayankMadan97/CodeUnity-Sync",
+      image: "../../assets/projects/codesync.jpg",
+      body: "AI powered IDE-based Task Manager Extension on steroids."
     }
   ];
 
